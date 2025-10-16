@@ -68,5 +68,10 @@ namespace TCP_client
         {
             context.Send((m) =>  TextUnswer.Text = (string)m, answ) ; 
         }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
